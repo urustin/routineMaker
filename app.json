@@ -1,9 +1,11 @@
 {
   "expo": {
-    "name": "dailyChecker_expo",
-    "slug": "dailyChecker_expo",
+    "name": "routineMaker",
+    "slug": "routinemaker",
     "version": "1.0.0",
     "orientation": "portrait",
+    "currentFullName":"@flaresolution/routineMaker",
+    "originalFullName":"@flaresolution/routineMaker",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -11,20 +13,30 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "scheme": "fb928400545119701",
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.flaresolution.routineMaker"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.flaresolution.routineMaker"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a1289352-1b3d-4ab5-bf79-a80932db08cf"
+      }
+    },
+    "owner": "flaresolution"
   }
 }
